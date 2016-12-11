@@ -1,0 +1,109 @@
+html {
+  font-family: Roboto, serif;
+  background-color: white;
+}
+
+.color-brand {
+  color: white;
+}
+
+.color-brand-dark {
+  color: #f0699b;
+}
+
+a {
+  color: #568c36;
+}
+
+a:hover {
+  color: white;
+}
+
+.max-length {
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.masthead {
+  background-color: #f0699b;
+
+  color: #fff;
+}
+
+.nav {
+  position: relative;
+  background-color: #2cc8ff;
+  z-index: 2;
+}
+
+.nav a {
+  display: inline-block;
+  padding: .5rem .75rem;
+
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav a:hover {
+  background-color: #fff;
+  color: #2cc8ff;
+}
+
+.nav a:focus {
+  background-color: #fff;
+  color: #113c00;
+}
+
+.slogan {
+  position: relative;
+}
+
+.slogan-content {
+  background-color: #f0699b;
+  color: #fff;
+}
+
+.hours {
+  background-color: white;
+}
+
+th,
+td {
+  border-color: #f0699b;
+}
+
+.contact {
+  background-color: #f0699b;
+  color: white;
+}
+
+.btn {
+  background-color: #2cc8ff;
+  border-color: #2cc8ff;
+
+  color: #fff;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: white;
+  color: #2cc8ff;
+}
+
+.footer {
+  background-color: #2cc8ff;
+  color: #fff;
+}
+
+@media only screen and (min-width: 35em) {
+
+  .slogan-content {
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+
+    background-color: transparent;
+    background-image: linear-gradient(to bottom, rgba(17, 0, 0, 0), rgba(17, 0, 0, .8));
+  }
+
+}
