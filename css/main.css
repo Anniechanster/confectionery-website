@@ -52,6 +52,8 @@ a:hover {
 .nav a:focus {
   background-color: #fff;
   color: #113c00;
+  border: none;
+  outline: none;
 }
 
 .slogan {
