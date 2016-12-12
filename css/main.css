@@ -26,7 +26,6 @@ a:hover {
 
 .masthead {
   background-color: #f0699b;
-
   color: #fff;
 }
 
@@ -38,7 +37,7 @@ a:hover {
 
 .nav a {
   display: inline-block;
-  padding: .5rem .75rem;
+  padding: 1rem .75rem;
 
   color: #fff;
   text-decoration: none;
@@ -47,11 +46,16 @@ a:hover {
 .nav a:hover {
   background-color: #fff;
   color: #2cc8ff;
+
+  background-image: url("../images/blue.png");
+  background-repeat: no-repeat;
+  background-size: 20px;
+  background-position: 50% 15%;
 }
 
 .nav a:focus {
   background-color: #fff;
-  color: #113c00;
+  color: #2cc8ff;
   border: none;
   outline: none;
 }
@@ -83,6 +87,10 @@ a:hover {
 th,
 td {
   border-color: #f0699b;
+}
+
+input {
+  color: #f0699b;
 }
 
 .contact {
