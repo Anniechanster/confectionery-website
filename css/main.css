@@ -89,8 +89,10 @@ td {
   border-color: #f0699b;
 }
 
-input {
-  color: #f0699b;
+input,
+textarea {
+  color: #2cc8ff;
+  border: none;
 }
 
 .contact {
